@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace SkrugaDBTest
 {
-    public class CircleSquare
+    public class AreaCalculator
     {
-        public double CircleSquare1(double radius)
+        public double AreaCircleSquare1(double radius)
         {
             if (radius > 0)
             {
                 return Math.PI * Math.Pow(radius, 2);
             }
-            else
-                return 0;
-
+            else if (radius == 0)
+            {
+                return 0
+            }
+            else 
+            {
+                return ArgumentOutOfRangeException;
+            }
         }
     }
 }

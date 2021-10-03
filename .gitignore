@@ -1,7 +1,13 @@
-# Prerequisites
-*.d
-
-# Object files
+#myignorefiles
+.vs/
+SkrugaDBUnitTest/.vs/
+SkrugaDBUnitTest/SkrugaDBTest/bin/
+SkrugaDBUnitTest/SkrugaDBTest/obj/
+SkrugaDBUnitTest/packages/
+#endmyignorefiles
+rerequisites
+*d
+#Object files
 *.o
 *.ko
 *.obj

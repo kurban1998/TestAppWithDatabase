@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USqlCSharpUdoSample", "MyCi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleSquareTest", "CircleSquareTest\CircleSquareTest.csproj", "{A1DFC829-0BE5-44B7-9890-422A19F27C83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleSquare.UnitTest", "CircleSquare.UnitTest\CircleSquare.UnitTest.csproj", "{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A1DFC829-0BE5-44B7-9890-422A19F27C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1DFC829-0BE5-44B7-9890-422A19F27C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1DFC829-0BE5-44B7-9890-422A19F27C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

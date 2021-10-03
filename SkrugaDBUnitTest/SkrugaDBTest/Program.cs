@@ -1,16 +1,14 @@
 ﻿using System;
 
 
-namespace SkrugaDBTest
+namespace CircleAreaCalculator
 {
     class Program
     {
         static void Main(string[] args)
         {
             using (CircleDbContext db = new CircleDbContext())
-            {
-                while (true)
-                {
+            { 
                     try
                     {
                         Console.WriteLine("Введите радиус круга");
@@ -28,7 +26,7 @@ namespace SkrugaDBTest
                     {
                         Console.WriteLine("Ошибка");
                     }
-                }
+                
            
             }
 
