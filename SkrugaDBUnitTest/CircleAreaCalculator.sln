@@ -3,36 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkrugaDBTest", "SkrugaDBTest\SkrugaDBTest.csproj", "{64196CC4-92E0-4B4E-A09E-38D702E24D21}"
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "CircleAreaCalculator", "SkrugaDBTest\bin\Debug\CircleAreaCalculator.exe", "{2171A259-9C5A-4E89-8131-2D2A8CC05321}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\User\Desktop\мой проект\SkrugaDBUnitTest\SkrugaDBTest\bin\Debug\CircleAreaCalculator.exe
+		RemoteMachine = WIN-JN6720IOM98
+		StartingDirectory = C:\Users\User\Desktop\мой проект\SkrugaDBUnitTest\SkrugaDBTest\bin\Debug
+		Environment = По умолчанию
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USqlCSharpUdoSample", "MyCircleSquareTest\USqlCSharpUdoSample\USqlCSharpUdoSample.csproj", "{B1A2CBDE-1496-40B5-9286-F97A41F2CB50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleAreaCalculatorNew", "CircleAreaCalculatorNew\CircleAreaCalculatorNew.csproj", "{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleSquareTest", "CircleSquareTest\CircleSquareTest.csproj", "{A1DFC829-0BE5-44B7-9890-422A19F27C83}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleSquare.UnitTest", "CircleSquare.UnitTest\CircleSquare.UnitTest.csproj", "{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleSquareNewTest", "CircleSquareNewTest\CircleSquareNewTest.csproj", "{11042E0B-D5BB-465C-8EDF-A766E0D0770F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{64196CC4-92E0-4B4E-A09E-38D702E24D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64196CC4-92E0-4B4E-A09E-38D702E24D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64196CC4-92E0-4B4E-A09E-38D702E24D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64196CC4-92E0-4B4E-A09E-38D702E24D21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1A2CBDE-1496-40B5-9286-F97A41F2CB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1A2CBDE-1496-40B5-9286-F97A41F2CB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1A2CBDE-1496-40B5-9286-F97A41F2CB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1A2CBDE-1496-40B5-9286-F97A41F2CB50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1DFC829-0BE5-44B7-9890-422A19F27C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1DFC829-0BE5-44B7-9890-422A19F27C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1DFC829-0BE5-44B7-9890-422A19F27C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1DFC829-0BE5-44B7-9890-422A19F27C83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14A389A7-51BB-4AA7-A03A-7BDE6FADF4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2171A259-9C5A-4E89-8131-2D2A8CC05321}.Debug|Any CPU.ActiveCfg = Release|x86
+		{2171A259-9C5A-4E89-8131-2D2A8CC05321}.Debug|x86.ActiveCfg = Release|x86
+		{2171A259-9C5A-4E89-8131-2D2A8CC05321}.Release|Any CPU.ActiveCfg = Release|x86
+		{2171A259-9C5A-4E89-8131-2D2A8CC05321}.Release|x86.ActiveCfg = Release|x86
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Debug|x86.Build.0 = Debug|Any CPU
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Release|x86.ActiveCfg = Release|Any CPU
+		{322AD720-439E-40D8-9DCD-6B5B4A71D9A7}.Release|x86.Build.0 = Release|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Debug|x86.Build.0 = Debug|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Release|x86.ActiveCfg = Release|Any CPU
+		{11042E0B-D5BB-465C-8EDF-A766E0D0770F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
