@@ -1,8 +1,10 @@
 #myignorefiles
+[Bb]in/
+[Oo]bj/
 .vs/
 SkrugaDBUnitTest/.vs/
-SkrugaDBUnitTest/SkrugaDBTest/bin/
-SkrugaDBUnitTest/SkrugaDBTest/obj/
+SkrugaDBUnitTest/CircleAreaCalculator/bin/
+SkrugaDBUnitTest/CircleAreaCalculator/obj/
 SkrugaDBUnitTest/packages/
 #endmyignorefiles
 rerequisites
