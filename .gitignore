@@ -1,7 +1,15 @@
-# Prerequisites
-*.d
-
-# Object files
+#myignorefiles
+[Bb]in/
+[Oo]bj/
+.vs/
+SkrugaDBUnitTest/.vs/
+SkrugaDBUnitTest/CircleAreaCalculator/bin/
+SkrugaDBUnitTest/CircleAreaCalculator/obj/
+SkrugaDBUnitTest/packages/
+#endmyignorefiles
+rerequisites
+*d
+#Object files
 *.o
 *.ko
 *.obj
