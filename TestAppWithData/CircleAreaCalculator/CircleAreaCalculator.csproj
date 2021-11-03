@@ -70,9 +70,16 @@
   <ItemGroup>
     <Compile Include="AreaCalculator.cs" />
     <Compile Include="Circle.cs" />
-    <Compile Include="CircleDbContext.cs" />
+    <Compile Include="FiguresDbContext.cs" />
+    <Compile Include="IAreaCalculator.cs" />
+    <Compile Include="Migrations\202111031531251_MigrationDB.cs" />
+    <Compile Include="Migrations\202111031531251_MigrationDB.designer.cs">
+      <DependentUpon>202111031531251_MigrationDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trapeze.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -89,6 +96,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202111031531251_MigrationDB.resx">
+      <DependentUpon>202111031531251_MigrationDB.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
