@@ -3,7 +3,7 @@
 
 namespace CircleAreaCalculator
 {
-    public class AreaCalculator
+    public class AreaCalculator: IAreaCalculator
     {   
         /// <summary>
         /// Подсчет площади круга
