@@ -28,20 +28,20 @@ namespace CircleAreaCalculator
         /// <summary>
         /// Подсчет площади трапеции
         /// </summary>
-        /// <param name="sideA">Сторона А - основание</param>
-        /// <param name="sideB">Сторона В - основание</param>
+        /// <param name="UpperBase">Сторона А - основание</param>
+        /// <param name="LowerBase">Сторона В - основание</param>
         /// <param name="height">Высота</param>
         /// <returns>Площадь трапеции</returns>
-        public double TrapezeSquare(double sideA, double sideB, double height)
+        public double TrapezeSquare(double UpperBase, double LowerBase, double height)
         {
-            if (sideA <= 0 || sideB <= 0 || height <= 0)
+            if (UpperBase <= 0 || LowerBase <= 0 || height <= 0)
             {
                 throw new ArgumentOutOfRangeException();
                 
             }
             else
             {
-                return (sideA + sideB) / 2 * height;
+                return (UpperBase + LowerBase) / 2 * height;
             }
         }
     }

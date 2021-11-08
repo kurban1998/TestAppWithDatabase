@@ -76,6 +76,10 @@
     <Compile Include="Migrations\202111031531251_MigrationDB.designer.cs">
       <DependentUpon>202111031531251_MigrationDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111081606530_MigrationDB1.cs" />
+    <Compile Include="Migrations\202111081606530_MigrationDB1.designer.cs">
+      <DependentUpon>202111081606530_MigrationDB1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,6 +104,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202111031531251_MigrationDB.resx">
       <DependentUpon>202111031531251_MigrationDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111081606530_MigrationDB1.resx">
+      <DependentUpon>202111081606530_MigrationDB1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -53,14 +53,14 @@ namespace CircleAreaCalculator.UnitTests
         public void TrapezeSquareResSuccsess()
         {
             //Arrange - берем условное число и проверяем результат. 
-            double sizeA = 1;
-            double sizeB = 2;
+            double UpperBase = 1;
+            double LowerBase = 2;
             double height = 3;
-            double expected = (sizeA + sizeB) / 2 * height;
+            double expected = (UpperBase + LowerBase) / 2 * height;
 
             //Act - факт. объект тестирования 
 
-            double actual = trapeze.TrapezeSquare(sizeA,sizeB,height);
+            double actual = trapeze.TrapezeSquare(UpperBase, LowerBase, height);
 
             //Assert - сравнение результатов (True, False)
             Assert.AreEqual(expected, actual);

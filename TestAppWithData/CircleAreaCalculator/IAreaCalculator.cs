@@ -9,6 +9,6 @@ namespace CircleAreaCalculator
     interface IAreaCalculator
     {
         double CircleSquare(double radius);
-        double TrapezeSquare(double sideA, double sideB, double height);
+        double TrapezeSquare(double UpperBase, double LowerBase, double height);
     }
 }
