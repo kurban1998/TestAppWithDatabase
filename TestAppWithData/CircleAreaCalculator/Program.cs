@@ -22,8 +22,7 @@ namespace CircleAreaCalculator
 
                         switch (selectedKey)
                         {
-                            case "c": //eng
-                            case "с": //rus
+                            case "с": 
                                 #region CircleSquare
                                 Console.WriteLine("ПОДСЧЕТ ПЛОЩАДИ КРУГА");
                                 Console.WriteLine("Введите радиус круга");
@@ -37,7 +36,6 @@ namespace CircleAreaCalculator
                                 db.SaveChanges();
                                 #endregion
                                 break;
-                            case "t":
                             case "т":
                                 #region TrapezeSquare
 
